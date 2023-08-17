@@ -20,22 +20,27 @@ python client.py -h
 
 ## Usage
 ```
-usage: Net_Scan.py [-h] [-t TARGET]
+usage: server.py [-h] [-i IP] [-p PORT]
 
-A Simple Host Discovery Tool !!
+A Simple Socket CMD !!
 
 options:
-  -h, --help                  show this help message and exit
-  -t TARGET, --target TARGET  Specify target ip or ip range
-```
+  -h, --help            show this help message and exit
+  -i IP, --ip IP        Domain Name You Want to Scan
+  -p PORT, --port PORT  Any Specific Port
 
- ### Development by
 
-Developer / Author: [0xB14CKY](https://www.instagram.com/0xb14cky/)
+usage: client.py [-h] [-i IP] [-p PORT]
 
+A Simple Socket CMD !!
 
 options:
   -h, --help            show this help message and exit
   -i IP, --ip IP        Domain Name You Want to Scan
   -p PORT, --port PORT  Any Specific Port
 ```
+
+ ### Development by
+
+Developer / Author: [0xB14CKY](https://www.instagram.com/0xb14cky/)
+
