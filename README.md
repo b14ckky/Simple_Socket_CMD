@@ -7,6 +7,7 @@ pip install argparse termcolor colorama
 ```
 
 ```
+First You Nedd To Run Server File Then Client File.
 usage: client.py [-h] [-i IP] [-p PORT]
 
 A Simple Socket CMD !!
